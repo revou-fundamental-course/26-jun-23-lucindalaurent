@@ -1,0 +1,349 @@
+/* MARK: Header Section */
+#headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.826);
+    padding: 16px 24px;
+
+}
+
+.header-wrapper>#navigation {
+    display: flex;
+}
+
+#navigation>.nav-button {
+    background-color: rgb(255, 228, 74);
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s background-color ease-out;
+}
+
+#navigation>.nav-button:hover {
+    background-color: gainsboro;
+}
+
+#navigation>.nav-button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+#navigation>.nav-button:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#headerTitle {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#subtitle {
+    margin-top: 5px;
+    color: rgba(128, 128, 128, 0.878);
+
+}
+
+/* MARK: Call Us Section */
+#callUs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px
+}
+
+#article {
+    flex-basis: 60%;
+    flex-grow: 0;
+    margin-left: 32px;
+}
+
+/* otomatis mengganti image yg ada di dalam artikel */
+#article img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    width: 800px;
+    height: 480px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.review {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#customer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0%;
+}
+
+#customer img{
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 150px;
+    height: 140px;
+}
+
+#cusName{
+    height:40px;
+    padding-bottom: 0%;
+}
+
+.feature {
+    margin-left: 100px;
+    margin-right: 700px;
+}
+
+li::marker {
+    content: '✅ ';
+    font-size: 15px;
+}
+
+#packageMark {
+    background-color: rgba(201, 206, 223, 0.826);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px 660px;
+    margin-bottom: 40px;
+
+}
+
+
+.marker {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    flex-grow: 0;
+    background-color: rgba(235, 235, 235, 0.826);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 40px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inputColumn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 10px;
+    align-items: flex-start;
+}
+
+.inputArea {
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+}
+
+#message {
+    height: 70px;
+}
+
+.title {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 10px;
+    align-items: flex-start;
+}
+
+.titleSubtitle1 {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.titleSubtitle2 {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 8, 44);
+    color: white;
+    padding: 12px 120px;
+    border: 1px solid gray;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.list {
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 5px;
+    max-width: 210px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feature {
+    font-size: large;
+}
+
+.description {
+    font-size: large;
+}
+
+.option {
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.826);
+}
+
+.option img {
+    width: 80px;
+    height: 80px;
+}
+
+.batch1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.batch2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.explanation {
+    display: flex;
+    flex-direction: column;
+}
+
+#callAction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.826);
+}
+
+#offer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lastSection {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1197px){
+    .batch1{
+        flex-direction: column;
+    }
+    .batch2{
+        flex-direction: column;
+    }
+    .list{
+        max-width: 80%;
+    }
+    .feature{
+        margin-right: 300px;
+    }
+    #packageMark{
+        padding-left: 520px;
+    }
+}
+@media only screen and (max-width: 942px){
+    #packageMark{
+        padding-left: 370px;
+    }
+
+    #article img{
+        height:300px;
+    }
+
+    #customer img{
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 793px){
+#callUs{
+    flex-direction: column;
+}
+.inputColumn{
+    padding-bottom: 40px;
+}
+
+.feature{
+    margin-right: 100px;
+    padding-top: 40px;
+}
+
+#callAction{
+    margin-left: 30px;
+}
+
+#article img{
+    width: 450px;
+    height:330px;
+}
+#customer img{
+    width: 200px;
+    height: 170px;
+}
+}
+
+@media only screen and (max-width: 600px){
+
+    #packageMark{
+        padding-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 441px){
+    #packageMark{
+        padding-left: 100px;
+    }
+
+    .inputArea{
+        width: 200px;
+    }
+
+    #button{
+        padding: 12px 80px;
+    }
+}
+
+@media only screen and (max-width: 411px){
+    #headerNavigation{
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+}

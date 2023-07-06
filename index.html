@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+        <title>E-Groceries</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header-wrapper">
+        <section id="headerNavigation">
+            <img class="logo" alt="revou-logo"
+                src="https://cdn.techinasia.com/data/images/zdQEsPmqELZFfztTR1daUzfql6AqA0WnxY0mC3sz.png" class="logo"
+                width="40" height="40" />
+            <nav id="navigation">
+                <a href="#topOfPages" class="nav-button">Home</a>
+                <a href="#packageMark" class="nav-button">Our Package</a>
+                <a href="#callAction" class="nav-button">Call Us</a>
+            </nav>
+        </section>
+        <section id="headerTitle">
+            <h1 id="topOfPages">Top Rated E-Groceries Shop in Indonesia</h1>
+            <h3 id="subtitle">Every day with best ingredients</h3>
+        </section>
+
+    </header>
+    <main>
+        <section id="callUs">
+            <article id="article">
+                <img class="autoSlider" src="img/gambar1.jpg" />
+                <img class="autoSlider" src="img/gambar5.jpg" />
+                <img class="autoSlider" src="img/gambar3.webp" />
+                <img class="autoSlider" src="img/gambar4.jpg" />
+
+                <div class="review">
+                    <h3>Apa kata mereka tentang kami?</h3>
+                    <p>"setiap hari beli sayur buah yang fresh disini"</p>
+                    <div id="customer">
+                        <img src="img/customer.png" />
+                        <p id="cusName">Florence Hughes</p>
+                        <i>Ibu Rumah Tangga, 28</i>
+                    </div>
+                    <br><br>
+
+                </div>
+            </article>
+            <section id="form">
+                <div class="title">
+                    <h3 class="titleSubtitle1">Contact Us</h3>
+                    <h6 class="titleSubtitle2">Sales akan menghubungi Anda 1 x 24 jam setelah data kami terima.</h6>
+                </div>
+
+                <form class="inputColumn" action="https://www.google.com/" onsubmit="return validateForm()">
+                    <label for="name"> Your Name : </label>
+                    <br>
+                    <input class="inputArea" id="name" type="text" placeholder="Masukkan nama Anda" required />
+                    <br><br>
+                    <label for="email">Email Address : </label>
+                    <br>
+                    <input class="inputArea" id="email" type="text" placeholder="Masukkan alamat email aktif" required/>
+                    <br><br>
+                    <label for="number">Phone Number : </label>
+                    <br>
+                    <input class="inputArea" id="number" type="number" placeholder="Masukkan nomor handphone" required/>
+                    <br><br>
+                    <label for="message">Message : </label>
+                    <br>
+                    <textarea class="inputArea" id="message" rows="4" cols="44" placeholder="Tulis pesan" required></textarea>
+                    <br><br>
+                    <input id="button" type="submit" value="SEND">
+                </form>
+
+            </section>
+        </section>
+        <article class="feature">
+            <p><b>Rasakan kemudahan dalam berbelanja kebutuhan sehari-hari bersama E-Groceries!
+                    Daftar atau masuk ke akun Anda dan nikmati banyak keuntungannya.
+                </b></p>
+            <ul class="point">
+                <li>Dapatkan bahan pangan segar dengan penawaran menarik setiap harinya</li>
+                <li>Belanja kapan saja dan dimana saja melalui website maupun aplikasi E-Groceries</li>
+                <li>Pasti bebas ongkir dengan minimum pembelanjaan Rp200.000</li>
+            </ul>
+            <br><br>
+        </article>
+        <section id="packageMark">
+            <h1 class="marker">Our Package</h1>
+        </section>
+        <section class="option">
+            <section class="batch1">
+                <div class="list">
+                    <img class="showOption" src="img/sayuran_medium.png" />
+                    <div>
+                        <h6 class="description">Fresh Vegetable</h6>
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/buah_medium.png" />
+                    <div>
+                        <h6 class="description">Fresh Fruit</h6>
+                        <p>Buah dengan kualitas terbaik dari lokal
+                            atau impor dan harga yang menarik</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/instant delivery.webp" />
+                    <div>
+                        <h6 class="description">Instant Delivery</h6>
+                        <p>Dikirim instan oleh kurir pilihan sesuai SOP untuk menjaga kondisi belanjaan kamu</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/bumbu_masak_medium.png" />
+                    <div>
+                        <h6 class="description">Kitchen Ingredient</h6>
+                        <p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                    </div>
+                </div>
+            </section>
+            <br><br>
+            <section class="batch2">
+                <div class="list">
+                    <img class="showOption" src="img/seafood.png" />
+                    <div>
+                        <h6 class="description">Seafood</h6>
+                        <p>Makanan laut segar hasil tangkapan nelayan setiap harinya</p>
+                    </div>
+
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/peralatan_dapur_medium.png" />
+                    <div>
+                        <h6 class="description">Kitchen Set</h6>
+                        <p>Segala jenis alat masak rekomendasi chef internasional untuk membantu kamu memasak</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/produk_beku_medium.png" />
+                    <div>
+                        <h6 class="description">Frozen Food</h6>
+                        <p>Makanan beku kualitas terbaik buat kamu yang sibuk dan butuh stok makanan</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <img class="showOption" src="img/bundling.png" />
+                    <div>
+                        <h6 class="description">Bundling Set</h6>
+                        <p>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapurmu</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+    <footer>
+        <div id="callAction">
+            <h1>Promo Khusus Pengguna Baru!</h1>
+            <h3 id="offer">Untuk transaksi pertamamu tanpa minimum belanja, dapatkan cashback hingga 80%</h3>
+            <input id="button" type="submit" value="DAFTAR SEKARANG">
+        </div>
+        <div class="lastSection">
+            <h4>Revou 2023</h4>
+        </div>
+    </footer>
+</body>
+</html>
